@@ -8,11 +8,11 @@ B.L. Hawkins, A.H. Fullerton, B.L. Sanderson, and E.A. Steel
 
 1) Download R and RStudio.
 
-2) Unzip Data1.zip.
+2) Download project files from GitHub at https://github.com/brooke-l-hawkins/salmon-simulations.
 
-3) Create a new R project in RStudio.
+3) Unzip project files within salmon-simulations.zip.
 
-4) Load files from Data1.zip into your new project directory.
+4) Create new directory within salmon-simulations called 'data.out'.
 
 5) Check that your files are stored with the following directory structure within your R project directory.
 
@@ -118,7 +118,9 @@ B.L. Hawkins, A.H. Fullerton, B.L. Sanderson, and E.A. Steel
 
    data.out
 
-6) Install libraries in the setup section of model.R.
+6) Open salmon-simulations R project in RStudio.
+
+7) Install libraries in the setup section of model.R.
 ----------------------------------------------------------------------------------
 STEP II: Run simulations for four scenarios.
 
