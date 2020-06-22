@@ -6,15 +6,17 @@ B.L. Hawkins, A.H. Fullerton, B.L. Sanderson, and E.A. Steel
 ----------------------------------------------------------------------------------
 STEP I: Set up.
 
+Follow these steps to download software, model input files, additional code, and libraries required to replicate our study.
+
 1) Download R and RStudio.
 
-2) Download project files from GitHub at https://github.com/brooke-l-hawkins/salmon-simulations.
+2) Download model input files and additional code at https://github.com/brooke-l-hawkins/salmon-simulations.
 
-3) Unzip project files within salmon-simulations.zip.
+3) Unzip salmon-simulations.zip; this directory will serve as your R project directory.
 
 4) Create new directory within salmon-simulations called 'data.out'.
 
-5) Check that your files are stored with the following directory structure within your R project directory.
+5) Confirm that files are stored with the following structure within the salmon-simulations directory.
 
    code
       figure7.R
@@ -218,5 +220,4 @@ Once all simulations are completed, the results can be collected, analyzed, and 
      e) Replicate Figure 8 and all figures in Appendix 2
 
 3) Run the sensitivty_analysis.R script line by line. This script is best used by walking through incrementally instead of sourcing, since you must choose which scenarios to interact with, and because some steps can take a long time to process and may be deemed unnecessary.
-
 
